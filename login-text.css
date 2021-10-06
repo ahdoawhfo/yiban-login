@@ -1,0 +1,31 @@
+.username::before,
+.password::before {
+    box-shadow: 0 0 0 200px rgba(255, 255, 255, .2) inset;
+    transition: all 1s;
+}
+/* 登陆界面-用户名、密码框基础样式 */
+
+.username:hover,
+.password:hover {
+    box-shadow: 0 0 0 200px rgba(255, 255, 255, .5) inset;
+    transition: all 1s;
+}
+/* 登录界面-用户名、密码框鼠标靠近的样式 */
+
+.username::placeholder,
+.password::placeholder {
+    color: white;
+}
+/* 登录界面-用户名、密码框占位符的样式 */
+
+.username,
+.password {
+    margin: 6px 0;
+    height: 45px;
+    background-color: rgba(255, 255, 255, .3);
+    border: none;
+    border-radius: 4px;
+    padding: 0 14px;
+    outline: none;
+}
+/* 登录界面-用户名、密码框的基础样式 */
